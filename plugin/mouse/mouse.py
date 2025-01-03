@@ -111,8 +111,7 @@ def gui_wheel(gui: imgui.GUI):
 class Actions:
     def zoom_close():
         """Closes an in-progress zoom. Talon will move the cursor position but not click."""
-        if eye_zoom_mouse.zoom_mouse.state == eye_zoom_mouse.STATE_OVERLAY:
-            actions.tracking.zoom_cancel()
+        actions.tracking.zoom_cancel()
 
     def mouse_show_cursor():
         """Shows the cursor"""
