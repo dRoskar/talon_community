@@ -15,3 +15,10 @@ __pycache__
 .\#*
 # Vim (from https://github.com/github/gitignore/blob/main/Global/Vim.gitignore)
 [._]*.swp
+.bak
+core/system_paths-RoskarDeck.talon-list
+core/keys/letter.bak
+core/vocabulary/vocabulary.bak
+core/websites_and_search_engines/search_engine.bak
+core/websites_and_search_engines/website.bak
+tags/terminal/unix_utility.bak

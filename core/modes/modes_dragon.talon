@@ -15,7 +15,7 @@ speech.engine: dragon
 ^talon sleep [<phrase>]$: speech.disable()
 ^talon wake [<phrase>]$: speech.enable()
 
-^sleep all [<phrase>]$:
+^drowse all [<phrase>]$:
     user.switcher_hide_running()
     user.history_disable()
     user.homophones_hide()
@@ -23,3 +23,5 @@ speech.engine: dragon
     user.mouse_sleep()
     speech.disable()
     user.dragon_engine_sleep()
+
+^drowse [<phrase>]$: speech.disable()

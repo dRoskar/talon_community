@@ -10,11 +10,11 @@ enter: enter
 page down: pagedown
 page up: pageup
 escape: escape
-space: space
+void: space
 tab: tab
 insert: insert
-wipe: backspace
+slice: backspace
 delete: backspace
-forward delete: delete
+dice: delete
 menu key: menu
 print screen: printscr

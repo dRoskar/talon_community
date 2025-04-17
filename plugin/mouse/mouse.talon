@@ -3,7 +3,7 @@ control off: user.mouse_sleep()
 zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
-touch:
+touch | click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(0)
@@ -77,7 +77,7 @@ right drag | righty drag:
     user.mouse_drag(1)
     # close the mouse grid
     user.grid_close()
-end drag | drag end: user.mouse_drag_end()
+#end drag | drag end: user.mouse_drag_end()
 wheel down: user.mouse_scroll_down()
 wheel down here:
     user.mouse_move_center_active_window()

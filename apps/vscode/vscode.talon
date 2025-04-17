@@ -72,7 +72,7 @@ file hunt [<user.text>]:
     user.vscode("workbench.action.quickOpen")
     sleep(50ms)
     insert(text or "")
-file hunt (pace | paste):
+file hunt poop:
     user.vscode("workbench.action.quickOpen")
     sleep(50ms)
     edit.paste()
